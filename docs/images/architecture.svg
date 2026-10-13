@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="382" viewBox="0 0 1200 382" role="img" aria-labelledby="title desc">
+  <title id="title">从游戏触发到角色台词</title>
+  <desc id="desc">现有 Mod 加载器加载 Harmony 插件；捕获玩家输入或社交触发，使用实际游戏快照、提示词和记忆，调用 DeepSeek 或命中本地缓存，校验后播放文本。已显示台词写入日志与记忆，保存成功后记录检查点。</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#69c9d6"/></marker></defs>
+  <rect width="1200" height="382" rx="12" fill="#101d23"/>
+  <g font-family="Microsoft YaHei,Noto Sans SC,Arial,sans-serif">
+    <text x="36" y="42" font-size="23" font-weight="700" fill="#edf4f6">从游戏触发到角色台词</text>
+    <text x="1164" y="40" text-anchor="end" font-size="14" fill="#85adb9">HARMONY / 独立接入</text>
+    <g fill="#192f38" stroke="#345a68">
+      <rect x="36" y="80" width="250" height="164" rx="6"/>
+      <rect x="329" y="80" width="250" height="164" rx="6"/>
+      <rect x="622" y="80" width="250" height="164" rx="6"/>
+      <rect x="915" y="80" width="250" height="164" rx="6"/>
+    </g>
+    <g stroke="#69c9d6" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M295 164H318"/><path d="M588 164H611"/><path d="M881 164H904"/>
+    </g>
+    <g fill="#69c9d6" font-size="14">
+      <text x="56" y="110">01 / HOOK</text><text x="349" y="110">02 / CONTEXT</text>
+      <text x="642" y="110">03 / RESPONSE</text><text x="935" y="110">04 / PLAYBACK</text>
+    </g>
+    <g fill="#edf4f6" font-size="24" font-weight="700">
+      <text x="56" y="151">捕获对话触发</text><text x="349" y="151">组装真实上下文</text>
+      <text x="642" y="151">获得文本结果</text><text x="935" y="151">校验并播放</text>
+    </g>
+    <g fill="#b3ccd6" font-size="17">
+      <text x="56" y="188">玩家输入 / 原社交触发</text><text x="56" y="216">Harmony 生命周期补丁</text>
+      <text x="349" y="188">游戏快照 + JSON 提示词</text><text x="349" y="216">当前角色记忆</text>
+      <text x="642" y="188">DeepSeek / 本地缓存</text><text x="642" y="216">异步请求，可取消</text>
+      <text x="935" y="188">原有角色气泡与日志</text><text x="935" y="216">只记录已显示台词</text>
+    </g>
+    <path d="M1040 254V278H164" fill="none" stroke="#568775" stroke-width="2"/>
+    <circle cx="164" cy="278" r="4" fill="#9cd8b9"/>
+    <text x="600" y="304" text-anchor="middle" font-size="18" fill="#9cd8b9">台词完成 → 更新角色记忆 → 游戏保存成功 → 写入存档检查点</text>
+    <path d="M36 326H1164" stroke="#314d58"/>
+    <text x="36" y="355" font-size="16" fill="#b3ccd6">游戏源码无需修改</text>
+    <text x="1164" y="355" text-anchor="end" font-size="16" fill="#e1b469">模型输出仅为文本，不驱动角色行动</text>
+  </g>
+</svg>

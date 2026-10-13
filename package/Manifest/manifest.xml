@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModXmlManifest>
+  <packageId>com.catstudio.freeworldtalk</packageId>
+  <name>FreeWorldTalk</name>
+  <author>CatStudio</author>
+  <icon>icon.png</icon>
+  <previewImage>preview.png</previewImage>
+  <desc>DeepSeek 地面角色闲聊与玩家对话。独立 Harmony Mod，包含本地记忆与缓存。运行时按 F8 打开配置和对话。</desc>
+  <versions>
+    <ModMetaVersion>
+      <version>v_common</version>
+      <lib>0Harmony.dll</lib>
+      <main>FreeWorldTalk.dll</main>
+    </ModMetaVersion>
+  </versions>
+</ModXmlManifest>

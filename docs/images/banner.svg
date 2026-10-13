@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">FreeWorldTalk — 地面角色对话与记忆</title>
+  <desc id="desc">独立 Harmony Mod，使用 DeepSeek 生成玩家对话和工作闲聊，支持可编辑的角色提示词与本地记忆。面向 Windows Unity Editor 和 Mono。</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#29404b" stroke-width="0.6"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="14" fill="#101d23"/>
+  <rect x="704" y="0" width="496" height="340" fill="url(#grid)" opacity="0.55"/>
+  <path d="M36 52V28H92 M1108 28H1164V52 M36 288V312H92 M1108 312H1164V288" fill="none" stroke="#4a7483" stroke-width="2"/>
+  <g font-family="Microsoft YaHei,Noto Sans SC,Arial,sans-serif">
+    <text x="62" y="65" font-size="14" letter-spacing="3" fill="#69c9d6">FREEWORLD / INDEPENDENT MOD</text>
+    <text x="60" y="132" font-size="58" font-weight="700" fill="#edf4f6">FreeWorld<tspan fill="#69c9d6">Talk</tspan></text>
+    <text x="62" y="180" font-size="25" fill="#d6e7ec">让地面角色带着自己的设定与记忆开口</text>
+    <text x="62" y="217" font-size="18" fill="#95b3bf">玩家对话 · 工作闲聊 · 个人提示词 · 本地记忆</text>
+    <rect x="62" y="257" width="176" height="32" rx="4" fill="#1f3945"/>
+    <text x="150" y="279" text-anchor="middle" font-size="15" fill="#cce3eb">Harmony 接入</text>
+    <rect x="250" y="257" width="176" height="32" rx="4" fill="#1f3945"/>
+    <text x="338" y="279" text-anchor="middle" font-size="15" fill="#cce3eb">DeepSeek API</text>
+    <rect x="438" y="257" width="240" height="32" rx="4" fill="#1a302b"/>
+    <text x="558" y="279" text-anchor="middle" font-size="15" fill="#a8dbc1">Windows / Editor / Mono</text>
+    <rect x="784" y="70" width="344" height="184" rx="8" fill="#172b34" stroke="#3d6775"/>
+    <rect x="784" y="70" width="5" height="184" rx="2" fill="#69c9d6"/>
+    <text x="811" y="104" font-size="14" letter-spacing="2" fill="#80aab8">DIALOGUE CHANNEL</text>
+    <path d="M817 132H888V166H844L832 178V166H817Z" fill="none" stroke="#69c9d6" stroke-width="2"/>
+    <path d="M829 144H876 M829 154H858" fill="none" stroke="#69c9d6" stroke-width="2"/>
+    <text x="910" y="143" font-size="20" fill="#edf4f6">雇员继续工作</text>
+    <text x="910" y="170" font-size="16" fill="#a6c2cd">对话按真实时间播放</text>
+    <path d="M810 199H1100" stroke="#365460"/>
+    <circle cx="819" cy="226" r="4" fill="#9cd8b9"/>
+    <text x="834" y="232" font-size="17" fill="#bed8e2">文本回复 · 不执行模型命令</text>
+  </g>
+</svg>

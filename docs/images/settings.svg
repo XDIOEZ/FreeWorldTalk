@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="292" viewBox="0 0 1200 292" role="img" aria-labelledby="title desc">
+  <title id="title">四类设置，各归其位</title>
+  <desc id="desc">接口页配置模型和密钥，对话页调整闲聊，提示词页管理通用与个人设定，记忆页查看编辑角色记忆。切换页签保留未保存的输入。</desc>
+  <rect width="1200" height="292" rx="12" fill="#101d23"/>
+  <g font-family="Microsoft YaHei,Noto Sans SC,Arial,sans-serif">
+    <text x="36" y="42" font-size="23" font-weight="700" fill="#edf4f6">四类设置，各归其位</text>
+    <text x="1164" y="40" text-anchor="end" font-size="14" fill="#85adb9">SETTINGS / 分类示意</text>
+    <g fill="#192f38" stroke="#345a68">
+      <rect x="36" y="66" width="264" height="164" rx="6"/>
+      <rect x="324" y="66" width="264" height="164" rx="6"/>
+      <rect x="612" y="66" width="264" height="164" rx="6"/>
+      <rect x="900" y="66" width="264" height="164" rx="6"/>
+    </g>
+    <g fill="#69c9d6" font-size="13" letter-spacing="1">
+      <text x="58" y="94">01 / CONNECTION</text><text x="346" y="94">02 / DIALOGUE</text>
+      <text x="634" y="94">03 / PROMPTS</text><text x="922" y="94">04 / MEMORY</text>
+    </g>
+    <g fill="#edf4f6" font-size="28" font-weight="700">
+      <text x="58" y="134">接口</text><text x="346" y="134">对话</text>
+      <text x="634" y="134">提示词</text><text x="922" y="134">记忆</text>
+    </g>
+    <g fill="#b3ccd6" font-size="17">
+      <text x="58" y="172">地址 · 模型 · API Key</text><text x="58" y="200">对话语言</text>
+      <text x="346" y="172">自动闲聊开关</text><text x="346" y="200">最小触发间隔</text>
+      <text x="634" y="172">世界 · 通用 · 个人</text><text x="634" y="200">附加角色资料开关</text>
+      <text x="922" y="172">单个角色查看与编辑</text><text x="922" y="200">当前存档记忆管理</text>
+    </g>
+    <path d="M36 248H1164" stroke="#314d58"/>
+    <text x="36" y="273" font-size="16" fill="#9cd8b9">切换分类保留输入</text>
+    <text x="1164" y="273" text-anchor="end" font-size="16" fill="#b3ccd6">独立滚动 · 共用保存与返回入口</text>
+  </g>
+</svg>

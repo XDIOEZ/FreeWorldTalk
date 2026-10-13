@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="512" viewBox="0 0 1200 512" role="img" aria-labelledby="title desc">
+  <title id="title">提示词按角色隔离，记忆按存档保存</title>
+  <desc id="desc">所有角色收到通用提示词，仅当前发言者收到其专属 JSON 设定，同时提供实时处境和记忆。编辑记忆立即用于后续对话，保存游戏后写入检查点，读旧档恢复对应旧记忆。AI 生成个人设定只回填草稿，需要手动保存。</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#69c9d6"/></marker></defs>
+  <rect width="1200" height="512" rx="12" fill="#101d23"/>
+  <g font-family="Microsoft YaHei,Noto Sans SC,Arial,sans-serif">
+    <text x="36" y="42" font-size="23" font-weight="700" fill="#edf4f6">提示词按角色隔离，记忆按存档保存</text>
+    <text x="1164" y="40" text-anchor="end" font-size="14" fill="#85adb9">PROMPTS / CHECKPOINTS</text>
+    <g fill="#192f38" stroke="#345a68">
+      <rect x="36" y="72" width="242" height="146" rx="6"/>
+      <rect x="304" y="72" width="242" height="146" rx="6"/>
+      <rect x="572" y="72" width="242" height="146" rx="6"/>
+      <rect x="888" y="72" width="276" height="146" rx="6"/>
+    </g>
+    <g fill="#69c9d6" font-size="13" letter-spacing="1">
+      <text x="56" y="99">GLOBAL</text><text x="324" y="99">SPEAKER ONLY</text><text x="592" y="99">LIVE CONTEXT</text><text x="908" y="99">TEXT OUTPUT</text>
+    </g>
+    <g fill="#edf4f6" font-size="22" font-weight="700">
+      <text x="56" y="136">全局 + 通用规则</text><text x="324" y="136">当前角色专属设定</text>
+      <text x="592" y="136">当前处境与记忆</text><text x="908" y="136">当前角色的台词</text>
+    </g>
+    <g fill="#b3ccd6" font-size="16">
+      <text x="56" y="172">所有发言者共同使用</text><text x="56" y="198">JSON 保存 / 单独编辑</text>
+      <text x="324" y="172">仅取此角色的个人 JSON</text><text x="324" y="198">其他人的专属设定不发送</text>
+      <text x="592" y="172">角色资料由开关决定</text><text x="592" y="198">实际状态和记忆继续提供</text>
+      <text x="908" y="172">按发言者分别请求</text><text x="908" y="198">自动闲聊按原顺序播放</text>
+    </g>
+    <text x="291" y="154" text-anchor="middle" font-size="25" fill="#69c9d6">+</text>
+    <text x="559" y="154" text-anchor="middle" font-size="25" fill="#69c9d6">+</text>
+    <path d="M830 145H873" stroke="#69c9d6" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="36" y="240" width="1128" height="46" rx="5" fill="#253b32"/>
+    <text x="600" y="269" text-anchor="middle" font-size="18" fill="#b5e0c8">AI 起草个人设定：发送角色资料 → 回填可编辑草稿 → 玩家点击保存</text>
+    <text x="36" y="326" font-size="21" font-weight="700" fill="#edf4f6">记忆的保存边界</text>
+    <g fill="#182b33" stroke="#345a68">
+      <rect x="36" y="350" width="250" height="89" rx="5"/>
+      <rect x="329" y="350" width="250" height="89" rx="5"/>
+      <rect x="622" y="350" width="250" height="89" rx="5"/>
+      <rect x="915" y="350" width="250" height="89" rx="5"/>
+    </g>
+    <g stroke="#69c9d6" stroke-width="2" marker-end="url(#arrow)"><path d="M295 394H318"/><path d="M588 394H611"/><path d="M881 394H904"/></g>
+    <g fill="#edf4f6" font-size="21" font-weight="700">
+      <text x="56" y="386">查看 / 编辑角色记忆</text><text x="349" y="386">更新当前会话</text>
+      <text x="642" y="386">玩家保存游戏</text><text x="935" y="386">写入对应检查点</text>
+    </g>
+    <g fill="#b3ccd6" font-size="16">
+      <text x="56" y="417">修改 · 新增 · 删除</text><text x="349" y="417">后续对话立即使用</text>
+      <text x="642" y="417">保存成功才提交记忆</text><text x="935" y="417">读旧档恢复旧记忆</text>
+    </g>
+    <text x="600" y="480" text-anchor="middle" font-size="18" fill="#e1b469">只保存记忆编辑，还没有保存游戏：退出或读档后修改不会保留</text>
+  </g>
+</svg>
